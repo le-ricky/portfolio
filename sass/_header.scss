@@ -1,0 +1,61 @@
+.header {
+    height: 95vh;
+    background-image: radial-gradient($color-primary-light, $color-primary);
+    //background-color: $color-primary;
+    display: grid;
+    grid-template-rows: 100%;
+    align-items: center;
+
+    &__row {
+        padding-bottom: 15rem;
+    }
+    
+    &__content {
+        //background-color: red;
+        //height: 15rem;
+
+        display: flex;
+        justify-content: center; //centers .header__content horizontially
+        align-items: baseline;
+        
+        &-left {
+            //margin-right: -1rem;
+            //background-color: green;
+        }
+
+        &-middle {
+            align-self: center;
+            //background-color: white;
+            border-radius: 100px;
+            width: .4rem;
+        }
+        
+        &-right {
+            //background-color: blue;
+            padding-left: 1rem;
+        }
+    }
+}
+
+
+
+.heading-primary {
+
+    &--main {
+        animation: moveInRight 1.7s ease-out;
+    }
+
+
+    &--sub {
+        animation: moveInLeft 1.7s ease-out ;
+    }
+}
+
+.content-middle-content {
+    margin: 0 auto;
+    height: 8rem;
+    width: .4rem;
+    background-color: darkred;
+    border-radius: 100px/150px;
+    animation: increaseHeight .5s ease-in-out;
+}
