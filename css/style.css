@@ -128,14 +128,12 @@ body {
     column-gap: 2rem; }
     .section-projects .section__main--col-1 {
       height: 50rem;
-      width: auto;
-      background-color: red; }
+      width: auto; }
       .section-projects .section__main--col-1 .project-preview {
         width: 100%; }
     .section-projects .section__main--col-2 {
       height: 50rem;
-      width: auto;
-      background-color: red; }
+      width: auto; }
 
 .section-about {
   height: 30rem; }
