@@ -7,6 +7,11 @@ section {
     //width: auto;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 .section-technology {
     background-color: $color-secondary;
     margin-bottom: 8rem;
@@ -67,6 +72,7 @@ section {
             height: 50rem;
             width: auto;
             //background-color: red;
+
         }
     }
     
@@ -89,6 +95,8 @@ section {
     text-align: center;
     width: auto;
 }
+
+
 
 @media (max-width: 60rem) {
 
